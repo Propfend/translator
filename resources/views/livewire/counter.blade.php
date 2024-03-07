@@ -33,8 +33,4 @@
         </div>
     </div>
 
-    <div wire:poll.500ms>
-        sexo
-    </div>
-
 </div>
