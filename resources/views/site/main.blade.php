@@ -1,0 +1,3 @@
+@livewire('counter')
+
+@livewire('style')
