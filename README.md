@@ -1,33 +1,34 @@
-PROJETO:
+##PROJECT:
 
 •TRADUTOR AUTOMÁTICO REAL-TIME
 
 STACK:
 
-•PHP - 8.3
+-PHP - 8.3
 
-•LARAVEL - 10.4
+-LARAVEL - 10.4
 
-•LIVEWIRE - 3
+-LIVEWIRE - 3
 
-•TAILWIND CSS - 3
+-TAILWIND CSS - 3
 
 BIBLIOTECAS E/OU APIS:
 
-•GOOGLE TRANSLATOR API
+-GOOGLE TRANSLATOR API
 
-DESCRIÇÃO:
+##DESCRPTION:
 
 •translator é um aplicativo de traduções real-time, com framework 
 livewire integrado ao laravel para realização de requisições AJAX,
 com belo design sofisticado do tailwind css.
 
-INSTRUÇÕES:
+INSTRUCTIONS:
 
 •Crie um diretório, use os seguintes comandos no terminal do seu projeto:
 
 (obs: PHP e Composer previamente instalados)
 
+``` bash
 -git clone https://github.com/Propfend/translator.git
 
 -cd translator
@@ -39,8 +40,9 @@ INSTRUÇÕES:
 -php artisan generate:key
 
 -php artisan serve
+```
 
-USO:
+##USE:
 
 •O site apresenta uma interface simples de se utilizar, dentro do
 container principal há duas caixa menores, o input e o output da 
@@ -48,7 +50,7 @@ mensagem a ser traduzida. Digite a mensagem em qualquer linguagem
 no <textarea> de cima, ao clicar fora da barra, o texto será traduzido
 após aproximadamente meio segundo.
 
-INFORMAÇÕES PARA NERDS:
+##INFORMATION FOR NERDS:
 
 •A função wire:blur foi utilizada em ordem da tradução da frase ao
 passo que o usuário clica fora da caixa de texto. a decisão foi tomada
